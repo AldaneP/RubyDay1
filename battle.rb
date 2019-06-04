@@ -27,8 +27,8 @@ class Mage
     self.atk = 10
     self.magic = 40
     self.status = alive
-  end
-end
+   end
+ end
 
 def cast_spell(target)
   target.hp -= self.magic
@@ -37,4 +37,8 @@ def cast_spell(target)
     puts "#{target.name}" has burned!
    end
  end
+end
+
+def lit(lit 2)
+  puts "it\'s lit"
 end
